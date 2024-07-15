@@ -25,6 +25,10 @@
   color: rgba(17, 116, 237, 1);
 }
 
+.asd {
+  display: flex;
+}
+
 .block {
   width: 230px;
   height: 460px;
