@@ -1,0 +1,124 @@
+.Ai-config {
+  position: relative;
+  width: 100%;
+  height: 1200px;
+  background: #ffffff;
+  background-image: url("../../public/Icons/bottomL.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 100%;
+}
+
+.titAi {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 116px;
+
+  font-size: 45px;
+  font-weight: 700;
+  color: #1174ed;
+}
+
+.top {
+  position: relative;
+  width: 300px;
+  height: 364px;
+  margin-top: 30px;
+  display: flex;
+  align-items: end;
+}
+
+.firstDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+
+.circle {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  top: 5%;
+  right: 12%;
+  z-index: 99;
+}
+
+.middleDiv {
+  position: relative;
+  width: 300px;
+  height: 320px;
+  border: 1px solid #1174ed;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 5px #1174ed;
+}
+
+.center {
+  width: 230px;
+  height: 179px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.secondDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.middleDiv2 {
+  position: relative;
+  width: 463px;
+  height: 320px;
+  border: 1px solid #1174ed;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 5px #1174ed;
+}
+
+.top2 {
+  position: relative;
+  width: 463px;
+  height: 364px;
+  margin-top: 30px;
+  display: flex;
+  align-items: end;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.circle2 {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  top: 7%;
+  right: 17%;
+}
+
+.circle3 {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  top: 7%;
+  right: 20%;
+}
+
+.center2 {
+  width: 340px;
+  height: 179px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

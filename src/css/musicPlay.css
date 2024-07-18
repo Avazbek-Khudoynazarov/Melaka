@@ -1,0 +1,56 @@
+.music-config {
+  width: 100%;
+  height: 800px;
+  background: #ffffff;
+  background-image: url("../../public/Icons/back.png");
+}
+
+.rest {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../public/Icons/rest.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.music1 {
+  position: relative;
+  width: 363px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background-image: url("../../public/Icons/blueLine.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  margin-top: 270px;
+  margin-left: 150px;
+}
+
+.musicTit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.musicTit2 {
+  width: 90%;
+  display: flex;
+  text-align: end;
+}
+
+.music2 {
+  width: 760px;
+  height: 512px;
+  margin-top: 62px;
+}

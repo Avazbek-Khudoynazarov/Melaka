@@ -1,0 +1,30 @@
+.video-config {
+  width: 100%;
+  height: 1100px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titVid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 81px;
+}
+
+.main-video {
+  width: 1300px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main-video video {
+  width: 100%;
+  height: 640px;
+}

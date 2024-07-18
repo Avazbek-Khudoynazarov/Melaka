@@ -1,0 +1,70 @@
+.collec-config {
+  width: 100%;
+  height: 1200px;
+  background: #ffffff;
+}
+.al-config {
+  width: 100%;
+  height: 60%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tit-swipe {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.al-config button {
+  border: none;
+  background: none;
+  padding-bottom: 90px;
+}
+
+.pagdot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #a4a4a4;
+  margin-top: 13px;
+}
+
+.mainswipe {
+  width: 930px;
+  height: 685px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.mySwiper2 {
+  width: 930px;
+  height: 570px;
+}
+
+.mySwiper {
+  width: 930px;
+  height: 90px;
+}
+
+.mainswipe {
+  position: relative;
+}
+
+.mySwiper2 .swiper-button-next,
+.mySwiper2 .swiper-button-prev {
+  display: none;
+}

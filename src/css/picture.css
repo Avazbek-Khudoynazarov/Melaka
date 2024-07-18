@@ -1,0 +1,74 @@
+.picture-config {
+  position: relative;
+  width: 100%;
+  height: 1800px;
+  background: #ffffff;
+
+  background-image: url("../../public/backImg/jem.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic-con {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 58px;
+  margin-top: 300px;
+}
+
+.btnPic {
+  width: 710px;
+  height: 72px;
+  margin-top: 200px;
+}
+
+.btnPic button {
+  width: 710px;
+  height: 72px;
+
+  border-radius: 53px;
+  background: #1174ed;
+  color: #ffffff;
+  border: none;
+
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.pic-tit {
+  width: 1051px;
+  height: 193px;
+  border-radius: 100px;
+  background: #ffffff;
+  opacity: 90%;
+  margin-top: 68px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic-tit span {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: #300578;
+}
+
+.posStar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
